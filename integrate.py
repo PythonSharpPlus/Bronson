@@ -8,10 +8,14 @@ messages = [ {"role": "system", "content":
 # Create an infinite loop so we can have a continuous conversation with the AI
 while True:
       # Access the correct model of GPT for the code and correctly syntax it for Python (TYPE EXTRA HERE)
+      if message = input("User: ")
+         messages.append(
+          {"role": "user", "content": message},
+           )
         chat = openai.ChatCompletion.create(
             model="gpt-3.5-turbo", messages=messages
         )
-    reply = chat.choices[0].message.content
   # print whatever reply the AI comes up with into the terminal (TYPE EXTRA HERE)
-    
+    reply = chat.choices[0].message.content
+    print(f"ChatGPT: {reply}")
     messages.append({"role": "assistant", "content": reply})
