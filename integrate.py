@@ -1,7 +1,7 @@
 import openai
 
 # Copy and paste our API key on the line below
-openai.api_key = 'YOUR_API_KEY'
+openai.api_key = sk-proj-PeU7ubp-ru8emy4elbzpyOJfOoBhtWXieVhvo_BPFOR-sBOKGDkCwqkEML1nbCLeDI9xxl2X03T3BlbkFJFyUyNUQwknacEqiW31sclkXjYg0M4xvXcqAUNXVbpBdw-CXuyAF9DLJ-aX22ZfZBqwkq1yMMA
 messages = [ {"role": "system", "content": 
               "You are an intelligent assistant."} ]
 
